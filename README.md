@@ -29,7 +29,7 @@ Second easiest way to deploy this bot
 
 # ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
 
-``
+
 OWNER_ID = YOUR USER ID 
 OWNER_USERNAME = YOUR USER NAME  
 SUDO_USERS = YOUR SUDO USERS ID 
@@ -42,7 +42,7 @@ ALLOW_EXCL = True
 TOKEN = YOUR BOT TOKEN FOR BOT FATHER 
 STRICT_GBAN  = True 
 PORT= 8443 
-``
+
 - Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
 Choose heroku postegres and turn on dynos to start working.
 
