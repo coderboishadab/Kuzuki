@@ -4,4 +4,4 @@
 Kindly open this [link](https://raw.githubusercontent.com/peaktogoo/Akito_Playground/akito/English.py)
 Copy it into your preferred text editor and start translating!
 
-After you have finished, Kindly send it to [me](https://t.me/Magnesium_xd)
+After you have finished, Kindly send it to [me](https://t.me/Magnesium_xd).
