@@ -1,4 +1,4 @@
-# A star from you means a lot to me !
+## A star from you means a lot to me !
 <p align="center">
     <a href="https://github.com/KUZUKIbots/KUZUKI/stargazers"><img src="https://img.shields.io/github/stars/kuzukibots/kuzuki?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
