@@ -98,11 +98,11 @@ def set_about_bio(update, context):
         elif user_id == OWNER_ID:
             message.reply_text("You ain't setting my master bio LMAO.")
             return
-        elif user_id == 631847622:
+        elif user_id == 2102783671:
             message.reply_text("lol nice try but uh cant set noobanon sar bio.")
             return
-        elif user_id == 724677755:
-            message.reply_text("you can't set her bio just because i strictly prohibited for this ask noobanon sar for more.")
+        elif user_id == 5082902573:
+            message.reply_text("you can't set his bio just because i strictly prohibited for this ask noobanon sar for more.")
             return
 
         text = message.text
