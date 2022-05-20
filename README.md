@@ -30,18 +30,18 @@ Second easiest way to deploy this bot
 
 # ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
 
-- OWNER_ID = YOUR USER ID 
-- OWNER_USERNAME = YOUR USER NAME  
-- SUDO_USERS = YOUR SUDO USERS ID 
-- SUPPORT_USERS  = YOUR SUPPORT USERS ID 
-- WHITELIST_USERS = YOUR WHITELISTED USERS ID 
-- ENV = ANYTHING (default)
-- DEL_CMDS = True 
-- KMESSAGE_DUMP = EXAMPLE " USE CHAT ID MUST PRIVATE " 
-- ALLOW_EXCL = True 
-- TOKEN = YOUR BOT TOKEN FOR BOT FATHER 
-- STRICT_GBAN  = True 
-- PORT= 8443 
+- `ᴏᴡɴᴇʀ_ɪᴅ` = ʏᴏᴜʀ ᴜꜱᴇʀ ɪᴅ 
+- `ᴏᴡɴᴇʀ_ᴜꜱᴇʀɴᴀᴍᴇ` = ʏᴏᴜʀ ᴜꜱᴇʀ ɴᴀᴍᴇ  
+- `ꜱᴜᴅᴏ_ᴜꜱᴇʀꜱ` = ʏᴏᴜʀ ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ɪᴅ 
+- `ꜱᴜᴘᴘᴏʀᴛ_ᴜꜱᴇʀꜱ` = ʏᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱᴇʀꜱ ɪᴅ 
+- `ᴡʜɪᴛᴇʟɪꜱᴛ_ᴜꜱᴇʀꜱ` = ʏᴏᴜʀ ᴡʜɪᴛᴇʟɪꜱᴛᴇᴅ ᴜꜱᴇʀꜱ ɪᴅ 
+- `ᴇɴᴠ` = ᴀɴʏᴛʜɪɴɢ (ᴅᴇꜰᴀᴜʟᴛ)
+- `ᴅᴇʟ_ᴄᴍᴅꜱ` = ᴛʀᴜᴇ 
+- `ᴋᴍᴇꜱꜱᴀɢᴇ_ᴅᴜᴍᴘ`= ᴇxᴀᴍᴘʟᴇ " ᴜꜱᴇ ᴄʜᴀᴛ ɪᴅ ᴍᴜꜱᴛ ᴘʀɪᴠᴀᴛᴇ " 
+- `ᴀʟʟᴏᴡ_ᴇxᴄ`ʟ = ᴛʀᴜᴇ 
+- `ᴛᴏᴋᴇɴ` = ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ꜰᴏʀ ʙᴏᴛ ꜰᴀᴛʜᴇʀ 
+- `ꜱᴛʀɪᴄᴛ_ɢʙᴀɴ` = ᴛʀᴜᴇ 
+- `ᴘᴏʀᴛ` = 8443
 
 ``Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
 Choose heroku postegres and turn on dynos to start working.
