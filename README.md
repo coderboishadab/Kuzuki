@@ -14,16 +14,18 @@
 </p>
 
 
-# [I am Kuzuki](https://t.me/KUZUKI_Robot)
+# [ᴋᴜᴢᴜᴋɪ](https://t.me/KUZUKI_Robot)
 
-## How To Host
+## ʜᴏᴡ ᴛᴏ ʜᴏꜱᴛ ᴋᴜᴢᴜᴋɪ ?
+
+HEROKU
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/noob-kittu/YoneRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/KuzukiBots/Kuzuki"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
-# Credits
+# ᴄʀᴇᴅɪᴛꜱ
 
 - [Anie Team](https://github.com/AnieTeam/Anie-Robot) ``Inspiration``
 - [Akhil](https://github.com/AKH1LS) ``Dev``
-- [Zeus](https://github.com/zeusop5) ``Me``
+- [Zeus](https://github.com/zeusop5) ``Main Creator``
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
