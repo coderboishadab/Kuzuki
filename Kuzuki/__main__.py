@@ -89,9 +89,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 About", callback_data="anie_"),
+        InlineKeyboardButton(text="📜 About", callback_data="kuzuki_"),
         InlineKeyboardButton(
-            text="Basic Help ", callback_data="anie_basichelp"
+            text="Basic Help ", callback_data="kuzuki_basichelp"
         ),
     ],
     [
