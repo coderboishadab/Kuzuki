@@ -16,7 +16,7 @@ StartTime = time.time()
 
 import telegram.ext as tg
 
-print("Aniebot")
+print("Kuzuki")
 print("Starting...")
 
 
@@ -82,7 +82,7 @@ if ENV:
     HELP_IMG = os.environ.get('HELP_IMG',None)
 
 else:
-    from AnieRobot.config import Development as Config
+    from kuzuki.config import Development as Config
     TOKEN = Config.TOKEN
     try:
         OWNER_ID = int(Config.OWNER_ID)
