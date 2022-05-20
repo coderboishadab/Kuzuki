@@ -1,3 +1,4 @@
+# A star from you means a lot to me !
 <p align="center">
     <a href="https://github.com/KUZUKIbots/KUZUKI/stargazers"><img src="https://img.shields.io/github/stars/kuzukibots/kuzuki?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
@@ -29,7 +30,6 @@ Second easiest way to deploy this bot
 
 # ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
 
-
 - OWNER_ID = YOUR USER ID 
 - OWNER_USERNAME = YOUR USER NAME  
 - SUDO_USERS = YOUR SUDO USERS ID 
@@ -43,9 +43,9 @@ Second easiest way to deploy this bot
 - STRICT_GBAN  = True 
 - PORT= 8443 
 
-- Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
+``Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
 Choose heroku postegres and turn on dynos to start working.
-
+``
 # ᴘᴏɪɴᴛꜱ ᴛᴏ ɴᴏᴛᴇ
 
 These code were made under GNU Licence so anybody can use this code to make their own bot.
