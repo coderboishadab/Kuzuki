@@ -27,12 +27,17 @@ Second easiest way to deploy this bot
 <p align="center">
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/Kuzukibots/KUZUKI"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></p></a>
 
+# ᴘᴏɪɴᴛꜱ ᴛᴏ ɴᴏᴛᴇ
+
+This Code is made under GNU Licence so anybody can use this code to make their own bot.
+I will be very thankful if you will give a small credit for this codes in your projects
+
+
 # ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://t.me/kuzuki_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-blue.svg?logo=telegram"></a>
 
-# 
 # ᴄʀᴇᴅɪᴛꜱ
 
 - [Anie Team](https://github.com/AnieTeam/Anie-Robot) ``Inspiration``
