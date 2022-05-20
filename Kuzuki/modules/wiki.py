@@ -19,9 +19,9 @@ import requests
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
-from AnieRobot import dispatcher
-from AnieRobot.__main__ import STATS, USER_INFO
-from AnieRobot.modules.disable import DisableAbleCommandHandler
+from Kuzuki import dispatcher
+from Kuzuki.__main__ import STATS, USER_INFO
+from Kuzuki.modules.disable import DisableAbleCommandHandler
 import wikipedia
 
 def wiki(update, context):
