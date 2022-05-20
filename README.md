@@ -27,6 +27,25 @@ Second easiest way to deploy this bot
 <p align="center">
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/Kuzukibots/KUZUKI"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></p></a>
 
+# ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
+
+KEY = OWNER_ID | VALUE = YOUR USER ID 
+KEY = OWNER_USERNAME | VALUE = YOUR USER NAME  
+KEY = SUDO_USERS | VALUE = YOUR SUDO USERS ID 
+KEY = SUPPORT_USERS | VALUE = YOUR SUPPORT USERS ID 
+KEY = WHITELIST_USERS | VALUE = YOUR WHITELISTED USERS ID 
+KEY = ENV | VALUE = ANYTHING 
+KEY = DEL_CMDS | VALUE = True 
+KEY = MESSAGE_DUMP | VALUE = EXAMPLE " USE CHAT ID MUST PRIVATE " 
+KEY = ALLOW_EXCL | VALUE = True 
+KEY = TOKEN | VALUE = YOUR BOT TOKEN FOR BOT FATHER 
+KEY = STRICT_GBAN | VALUE = True 
+KEY = PORT | VALUE = 8443 
+
+`` Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
+Choose heroku postegres and turn on dynos to start working.
+``
+
 # ᴘᴏɪɴᴛꜱ ᴛᴏ ɴᴏᴛᴇ
 
 These code were made under GNU Licence so anybody can use this code to make their own bot.
