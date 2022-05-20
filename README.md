@@ -21,7 +21,9 @@
 - Hosting at Heroku
 The easiest way to deploy this Bot
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/KuzukiBots/Kuzuki"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
 - Hosting at Okteto
+Second easiest way to deploy this bot
 <p align="center">
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/Kuzukibots/KUZUKI"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></p></a>
 
