@@ -29,20 +29,20 @@ Second easiest way to deploy this bot
 
 # ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
 
-``KEY = OWNER_ID | VALUE = YOUR USER ID 
-KEY = OWNER_USERNAME | VALUE = YOUR USER NAME  
-KEY = SUDO_USERS | VALUE = YOUR SUDO USERS ID 
-KEY = SUPPORT_USERS | VALUE = YOUR SUPPORT USERS ID 
-KEY = WHITELIST_USERS | VALUE = YOUR WHITELISTED USERS ID 
-KEY = ENV | VALUE = ANYTHING 
-KEY = DEL_CMDS | VALUE = True 
-KEY = MESSAGE_DUMP | VALUE = EXAMPLE " USE CHAT ID MUST PRIVATE " 
-KEY = ALLOW_EXCL | VALUE = True 
-KEY = TOKEN | VALUE = YOUR BOT TOKEN FOR BOT FATHER 
-KEY = STRICT_GBAN | VALUE = True 
-KEY = PORT | VALUE = 8443 
 ``
-
+OWNER_ID = YOUR USER ID 
+OWNER_USERNAME = YOUR USER NAME  
+SUDO_USERS = YOUR SUDO USERS ID 
+SUPPORT_USERS  = YOUR SUPPORT USERS ID 
+WHITELIST_USERS = YOUR WHITELISTED USERS ID 
+ENV = ANYTHING (default)
+DEL_CMDS = True 
+KMESSAGE_DUMP = EXAMPLE " USE CHAT ID MUST PRIVATE " 
+ALLOW_EXCL = True 
+TOKEN = YOUR BOT TOKEN FOR BOT FATHER 
+STRICT_GBAN  = True 
+PORT= 8443 
+``
 - Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
 Choose heroku postegres and turn on dynos to start working.
 
@@ -57,7 +57,7 @@ credit. Kuzuki can be found on Telegram [here](https://t.me/Kuzuki_Robot).
 # ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://t.me/kuzuki_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-red.svg?logo=telegram"></a>
+<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-green.svg?logo=telegram"></a>
 
 # ᴄʀᴇᴅɪᴛꜱ
 
