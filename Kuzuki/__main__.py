@@ -354,8 +354,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "anie_":
         query.message.edit_text(
-            text=""" Anie - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of Anie.
+            text=""" Kuzuki - A bot to manage your groups with AI based features!
+            \nHere's the basic help regarding use of Kuzuki.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -365,10 +365,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Aniebotsupports"
+                            text="Update", url="t.me/kuzuki_support"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/Aniebots/11"
+                            text="Creator", url="t.me/magnesium_xd"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -384,12 +384,12 @@ def innexia_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-    elif query.data == "anie_basichelp":
+    elif query.data == "kuzuki_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@Anierobot_bot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@Kuzuki_Robot` in that chat to refresh admin list within my database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -397,21 +397,21 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="anie_admin"),
-                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="anie_notes"),
+                    InlineKeyboardButton(text="Admin", callback_data="kuzuki_admin"),
+                    InlineKeyboardButton(text="Notes", callback_data="kuzuki_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="anie_support"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="anie_credit"),
+                    InlineKeyboardButton(text="Updates", callback_data="kuzuki_support"),
+                    InlineKeyboardButton(text="Credit", callback_data="kuzuki_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="anie_back"),
+                    InlineKeyboardButton(text="Back", callback_data="kuzuki_back"),
                  
                  ]
                 ]
             ),
         )
-    elif query.data == "Anie_admin":
+    elif query.data == "kuzuki_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
             f"\nCongragulations, Innexia now ready to manage your group."
@@ -428,7 +428,7 @@ def innexia_about_callback(update, context):
             ),
         )
 
-    elif query.data == "anie_notes":
+    elif query.data == "kuzuki_notes":
         query.message.edit_text(
             text=f"<b> Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -439,20 +439,19 @@ def innexia_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="anie_basichelp")]]
             ),
         )
-    elif query.data == "anie_support":
+    elif query.data == "kuzuki_support":
         query.message.edit_text(
-            text="* Anie support chats*"
-            "\nJoin Support Group/Channel",
+            text="* Kuzuki Updates*"
+            "\nJoin Our Update Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/Anielogs"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/Aniebots"),
+                    InlineKeyboardButton(text="Logs", url="t.me/KuzukiLogs"),
+                    InlineKeyboardButton(text="Updates", url="t.me/kuzuki_support"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/AniebotSupports"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Aniebots"),
+                    InlineKeyboardButton(text="Creator", url="t.me/magnesium_xd"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="anie_basichelp"),
@@ -461,20 +460,19 @@ def innexia_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "anie_credit":
+    elif query.data == "kuzuki_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR Anie DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Aniw Bot",
+            text=f"<b> Here are Kuzuki Devs</b>\n"
+            f"\nHere Some Developers helping in Making The Kuzuki Bot Successful.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="D3nvil", url="t.me/d3nvil"),
-                    InlineKeyboardButton(text="Anon", url="t.me/noobanon"),
+                    InlineKeyboardButton(text="Zeus", url="t.me/magnesium_xd"),
+                    InlineKeyboardButton(text="Akhil", url="t.me/AKH1LS"),
                  ],
                  [
-                    InlineKeyboardButton(text="loly", url="t.me/piroXpower"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="Update", url="t.me/KUZUKI_support"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="anie_basichelp"),
@@ -485,31 +483,6 @@ def innexia_about_callback(update, context):
         )
         
         
-@run_async
-def Source_about_callback(update, context):
-    query = update.callback_query
-    if query.data == "source_":
-        query.message.edit_text(
-            text=""" Hi..😻 I'm *Anie*
-                 \nHere is the [🔥Source Code🔥](https://github.com/Anieteam/AnieRobot) .""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
-                 ]
-                ]
-            ),
-        )
-    elif query.data == "source_back":
-        query.message.edit_text(
-                PM_START_TEXT,
-                reply_markup=InlineKeyboardMarkup(buttons),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
-        )
 
 @run_async
 def get_help(update: Update, context: CallbackContext):
@@ -542,14 +515,14 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Hᴇʟᴘ ❔",
+                            text="Help",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 📢 ",
-                            url="https://t.me/t.me/Aniebotsupports"
+                            text="Update 📢 ",
+                            url="https://t.me/t.me/kuzuki_support"
                         )
                     ],
                 ]
