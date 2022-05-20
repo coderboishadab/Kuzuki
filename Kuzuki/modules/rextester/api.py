@@ -1,6 +1,6 @@
 import requests
 
-from AnieRobot.modules.rextester.langs import languages
+from Kuzuki.modules.rextester.langs import languages
 
 ### API warper for rextester.com
 ## Author: Nitan Alexandru Marcel.
