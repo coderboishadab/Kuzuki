@@ -29,7 +29,7 @@ Second easiest way to deploy this bot
 
 # ʀᴇQᴜɪʀᴇᴅ ᴠᴀʀꜱ ʏᴏᴜ ɴᴇᴇᴅ
 
-KEY = OWNER_ID | VALUE = YOUR USER ID 
+``KEY = OWNER_ID | VALUE = YOUR USER ID 
 KEY = OWNER_USERNAME | VALUE = YOUR USER NAME  
 KEY = SUDO_USERS | VALUE = YOUR SUDO USERS ID 
 KEY = SUPPORT_USERS | VALUE = YOUR SUPPORT USERS ID 
@@ -41,10 +41,10 @@ KEY = ALLOW_EXCL | VALUE = True
 KEY = TOKEN | VALUE = YOUR BOT TOKEN FOR BOT FATHER 
 KEY = STRICT_GBAN | VALUE = True 
 KEY = PORT | VALUE = 8443 
-
-`` Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
-Choose heroku postegres and turn on dynos to start working.
 ``
+
+- Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
+Choose heroku postegres and turn on dynos to start working.
 
 # ᴘᴏɪɴᴛꜱ ᴛᴏ ɴᴏᴛᴇ
 
@@ -57,7 +57,7 @@ credit. Kuzuki can be found on Telegram [here](https://t.me/Kuzuki_Robot).
 # ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://t.me/kuzuki_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-blue.svg?logo=telegram"></a>
+<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-red.svg?logo=telegram"></a>
 
 # ᴄʀᴇᴅɪᴛꜱ
 
