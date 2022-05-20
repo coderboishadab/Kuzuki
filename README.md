@@ -58,7 +58,7 @@ credit. Kuzuki can be found on Telegram [here](https://t.me/Kuzuki_Robot).
 # ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://t.me/kuzuki_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-green.svg?logo=telegram"></a>
+<p align='center'>   <a href="https://t.me/magnesium_xd"> <img src="https://img.shields.io/badge/Creator-Zeus-red?style=for-the-badge&logo=telegram" /></a> </p>
 
 # ᴄʀᴇᴅɪᴛꜱ
 
