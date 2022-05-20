@@ -15,12 +15,12 @@ from telegram.error import BadRequest
 from telegram.ext import MessageHandler, Filters, CommandHandler, run_async, CallbackQueryHandler
 from telegram.utils.helpers import mention_markdown, mention_html, escape_markdown
 
-import AnieRobot.modules.sql.welcome_sql as sql
-from AnieRobot import dispatcher, OWNER_ID, LOGGER, MESSAGE_DUMP
-from AnieRobot.modules.helper_funcs.chat_status import user_admin, is_user_ban_protected
-from AnieRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from AnieRobot.modules.helper_funcs.msg_types import get_welcome_type
-from AnieRobot.modules.helper_funcs.string_handling import markdown_parser, \
+import Kuzuki.modules.sql.welcome_sql as sql
+from Kuzuki import dispatcher, OWNER_ID, LOGGER, MESSAGE_DUMP
+from Kuzuki.modules.helper_funcs.chat_status import user_admin, is_user_ban_protected
+from Kuzuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Kuzuki.modules.helper_funcs.msg_types import get_welcome_type
+from Kuzuki.modules.helper_funcs.string_handling import markdown_parser, \
     escape_invalid_curly_brackets
 from AnieRobot.modules.log_channel import loggable
 
