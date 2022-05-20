@@ -69,7 +69,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-ANIE_IMG = "https://telegra.ph/file/7944090b9aca51ef8f562.jpg"
+KUZUKI_IMG = "https://te.legra.ph/file/7234aff34adc294954c30.jpg"
 
 PM_START_TEXT = """
 `Hii`  `I am` **Kuzuki** `the super powerful group manager solution`
@@ -717,7 +717,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1947924017 and DONATION_LINK:
+        if OWNER_ID != 5357440454 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
