@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/marvel
-RUN git clone https://github.com/Anieteam/AnieRobot/root/AnieRobot 
-WORKDIR /root/AnieRobot 
+RUN git clone https://github.com/kuzukibots/kuzuki/root/kuzuki 
+WORKDIR /root/kuzuki
 
-#Copy config file to /root/AnieRobot//AnieRobot 
-COPY ./AnieRobot/sample_config.py ./AnieRobot/config.py* /root/AnieRobot/AnieRobot/
+#Copy config file to /root/Kuzukibots//Kuzuki 
+COPY ./Kuzuki/sample_config.py ./Kuzuki/config.py* /root/Kuzuki/Kuzuki/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","AnieRobot"]
+CMD ["python3","-m","Kuzuki"]
