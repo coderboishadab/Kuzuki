@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="https://github.com/noob-kittu/YoneRobot/stargazers"><img src="https://img.shields.io/github/stars/noob-kittu/YoneRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/KUZUKIbots/KUZUKI/stargazers"><img src="https://img.shields.io/github/stars/kuzukibots/kuzuki?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://github.com/noob-kittu/YoneRobot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YoneRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/noob-kittu/YoneRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YoneRobot/issues"> <img src="https://img.shields.io/github/issues/noob-kittu/YoneRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/noob-kittu/YoneRobot/network/members"> <img src="https://img.shields.io/github/forks/noob-kittu/YoneRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://github.com/kuzukibots/kuzuki"> <img src="https://img.shields.io/github/repo-size/KUZUKibots/kuzuki?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/kuzukibots/kuzuki/commits/prince"> <img src="https://img.shields.io/github/last-commit/kuzukibots/kuzuki?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/kuzukibots/kuzuki/issues"> <img src="https://img.shields.io/github/issues/kuzukibots/kuzuki?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/kuzukibots/kuzuki/network/members"> <img src="https://img.shields.io/github/forks/kuzukibots/kuzuki?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
