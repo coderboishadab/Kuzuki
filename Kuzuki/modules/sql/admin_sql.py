@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import Column, Integer, String, Boolean
 
-from AnieRobot.modules.sql import SESSION, BASE
+from Kuzuki.modules.sql import SESSION, BASE
 
 
 class CommandReactionChatSettings(BASE):
