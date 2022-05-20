@@ -25,7 +25,7 @@ The easiest way to deploy this Bot
 # ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://t.me/kuzuki_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact-Owner%20onnTelegram-blue.svg?logo=telegram"></a>
+<a href="https://t.me/MAGNESIUM_XD"><img src="https://img.shields.io/badge/Contact%20Me-blue.svg?logo=telegram"></a>
 
 # ᴄʀᴇᴅɪᴛꜱ
 
