@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from AnieRobot import (
+from Kuzuki import (
     ALLOW_EXCL,
     CERT_PATH,
     LOGGER,
