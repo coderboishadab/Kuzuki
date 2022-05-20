@@ -43,7 +43,8 @@ Second easiest way to deploy this bot
 - `ꜱᴛʀɪᴄᴛ_ɢʙᴀɴ` = ᴛʀᴜᴇ 
 - `ᴘᴏʀᴛ` = 8443
 
-``Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
+``
+Please note that if you are using Heroku, after build logs, you have to add add-ons yourself.
 Choose heroku postegres and turn on dynos to start working.
 ``
 # ᴘᴏɪɴᴛꜱ ᴛᴏ ɴᴏᴛᴇ
