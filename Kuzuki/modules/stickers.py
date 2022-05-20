@@ -20,9 +20,9 @@ from telegram import Update, Bot
 from telegram.ext import CommandHandler, run_async
 from telegram.utils.helpers import escape_markdown
 
-from AnieRobot import dispatcher
+from Kuzuki import dispatcher
 
-from AnieRobot.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.disable import DisableAbleCommandHandler
 
 
 def stickerid(update, context):
