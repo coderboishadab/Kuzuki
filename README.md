@@ -1,5 +1,5 @@
-![Marvel](https://telegra.ph/file/7944090b9aca51ef8f562.jpg)
-# Aniebot 
+![Kuzuki](te.legra.ph/file/0324b9d528d6b1393782f.jpg)
+# Kuzuki
 
 <p align="center";
 
