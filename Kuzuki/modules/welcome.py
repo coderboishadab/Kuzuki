@@ -99,11 +99,11 @@ def new_member(update, context):
         for new_mem in new_members:
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                bot.send_message(chat.id, "Ayyyy. My creator just joined the group Boom Boom🤪")
+                bot.send_message(chat.id, "Look, My Creator just joined 😁 ! Thanks you sir for being here !")
                 continue
             # Give the sudo a sweet welcome
-            if new_mem.id == 642191066:
-                bot.send_message(chat.id, "Yo,Sir Mayank is just joined this group😎")
+            if new_mem.id == 2102783671:
+                bot.send_message(chat.id, "Yo, my Dev just joined, this group is so lucky that my master Akhil has joined this group 😌 !")
                 continue
 
             # Give start information when add bot to group
