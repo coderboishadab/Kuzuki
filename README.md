@@ -65,4 +65,6 @@ credit. Kuzuki can be found on Telegram [here](https://t.me/Kuzuki_Robot).
 - [Akhil](https://github.com/AKH1LS) ``Dev``
 - [Zeus](https://github.com/zeusop5) ``Main Creator``
 
+_______
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
