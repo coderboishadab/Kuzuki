@@ -16,14 +16,14 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import AnieRobot.modules.sql.notes_sql as sql
-from AnieRobot import dispatcher, MESSAGE_DUMP, LOGGER
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.chat_status import user_admin, user_can_change
-from AnieRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from AnieRobot.modules.helper_funcs.msg_types import get_note_type
+import Kuzuki.modules.sql.notes_sql as sql
+from Kuzuki import dispatcher, MESSAGE_DUMP, LOGGER
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.chat_status import user_admin, user_can_change
+from Kuzuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Kuzuki.modules.helper_funcs.msg_types import get_note_type
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
 FILE_MATCHER = re.compile(r"^###file_id(!photo)?###:(.*?)(?:\s|$)")
 STICKER_MATCHER = re.compile(r"^###sticker(!photo)?###:")
@@ -377,7 +377,7 @@ def rm_all(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Yes Deelete", callback_data="rmall_true"
+                                text="Yes Delete", callback_data="rmall_true"
                             )
                         ],
                         [
