@@ -22,9 +22,9 @@ from Kuzuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from Kuzuki.modules.helper_funcs.msg_types import get_welcome_type
 from Kuzuki.modules.helper_funcs.string_handling import markdown_parser, \
     escape_invalid_curly_brackets
-from AnieRobot.modules.log_channel import loggable
+from Kuzuki.modules.log_channel import loggable
 
-from AnieRobot.modules.feds import welcome_fed
+from Kuzuki.modules.feds import welcome_fed
 
 
 VALID_WELCOME_FORMATTERS = ['first', 'last', 'fullname', 'username', 'id', 'count', 'chatname', 'mention']
