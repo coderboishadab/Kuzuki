@@ -15,15 +15,15 @@ from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, User, CallbackQuery
 
-from AnieRobot import dispatcher, LOGGER, SUDO_USERS
-from AnieRobot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict, user_can_ban
-from AnieRobot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from AnieRobot.modules.helper_funcs.string_handling import extract_time
-from AnieRobot.modules.log_channel import loggable
+from Kuzuki import dispatcher, LOGGER, SUDO_USERS
+from Kuzuki.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict, user_can_ban
+from Kuzuki.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Kuzuki.modules.helper_funcs.string_handling import extract_time
+from Kuzuki.modules.log_channel import loggable
 
-from AnieRobot.modules.translations.strings import tld
-from AnieRobot.modules.connection import connected
-from AnieRobot.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.translations.strings import tld
+from Kuzuki.modules.connection import connected
+from Kuzuki.modules.disable import DisableAbleCommandHandler
 
 
 MEDIA_PERMISSIONS = ChatPermissions(can_send_messages=True,
