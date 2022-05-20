@@ -1,1 +1,1 @@
-worker: python3 -m AnieRobot 
+worker: python3 -m Kuzuki
