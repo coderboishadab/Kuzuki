@@ -22,9 +22,9 @@ from AnieRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AnieRobot.modules import ALL_MODULES
-from AnieRobot.modules.helper_funcs.chat_status import is_user_admin
-from AnieRobot.modules.helper_funcs.misc import paginate_modules
+from Kuzuki.modules import ALL_MODULES
+from Kuzuki.modules.helper_funcs.chat_status import is_user_admin
+from Kuzuki.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -72,29 +72,30 @@ def get_readable_time(seconds: int) -> str:
 ANIE_IMG = "https://telegra.ph/file/7944090b9aca51ef8f562.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **Anie** `your group super bot`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
+`Hii`  `I am` **Kuzuki** `the super powerful group manager solution`
+`I am based on AI and provide you best experience and gives you mind free group management services.
+Just add me to your group with all powers and everything will be done with your one command !`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
+            text="❔Helps & Commands❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ",url="https://github.com/Anieteam/AnieRobot"),
+        InlineKeyboardButton(text="🔥 Creator 🔥",url="https://t.me/Magnesium_xd"),
         InlineKeyboardButton(
-            text="Anie Userbot 🎶", url="https://github.com/Anieteam/Aniebots"
+            text="Update ⚡", url="https://t.me/Kuzuki_support"
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 Aʙᴏᴜᴛ", callback_data="anie_"),
+        InlineKeyboardButton(text="📜 About", callback_data="anie_"),
         InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ 👮", callback_data="anie_basichelp"
+            text="Basic Help ", callback_data="anie_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Add me💕", url="http://t.me/Anierobot_bot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url="http://t.me/kuzuki_robot?startgroup=true"),
     ],
 ]
 
@@ -106,7 +107,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @AnieBots's 💕"""
+ @Magnesium_xd"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -119,7 +120,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AnieRobot.modules." + module_name)
+    imported_module = importlib.import_module("Kuzuki.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -216,12 +217,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            ANIE_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            KUZUKI_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Aniebotchat", url="t.me/Aniebotsupports")]]
+                [[InlineKeyboardButton(text="Update", url="t.me/kuzuki_support")]]
             ),
         )
         
