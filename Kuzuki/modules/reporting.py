@@ -13,10 +13,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, RegexHandler, run_async, Filters, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-from AnieRobot import dispatcher, LOGGER
-from AnieRobot.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from AnieRobot.modules.log_channel import loggable
-from AnieRobot.modules.sql import reporting_sql as sql
+from Kuzuki import dispatcher, LOGGER
+from Kuzuki.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from Kuzuki.modules.log_channel import loggable
+from Kuzuki.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 
