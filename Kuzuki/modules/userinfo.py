@@ -13,10 +13,10 @@ from telegram import ParseMode, MAX_MESSAGE_LENGTH
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import AnieRobot.modules.sql.userinfo_sql as sql
-from AnieRobot import dispatcher, SUDO_USERS, OWNER_ID
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.extraction import extract_user
+import Kuzuki.modules.sql.userinfo_sql as sql
+from Kuzuki import dispatcher, SUDO_USERS, OWNER_ID
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.extraction import extract_user
 
 
 def about_me(update, context):
