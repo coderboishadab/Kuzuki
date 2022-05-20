@@ -26,4 +26,4 @@ The easiest way to deploy this Bot
 - [Akhil](https://github.com/AKH1LS) ``Dev``
 - [Zeus](https://github.com/zeusop5) ``Me``
 
-
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
