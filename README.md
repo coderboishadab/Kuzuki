@@ -1,4 +1,4 @@
-## ᴀ ꜱᴛᴀʀ ꜰʀᴏᴍ ʏᴏᴜ ᴍᴇᴀɴꜱ ᴀ ʟᴏᴛ ᴛᴏ ᴍᴇ !
+# ᴋᴜᴢᴜᴋɪ
 <p align="center">
     <a href="https://github.com/KUZUKIbots/KUZUKI/stargazers"><img src="https://img.shields.io/github/stars/kuzukibots/kuzuki?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
@@ -13,9 +13,6 @@
 <p align="center">
   <img src="https://te.legra.ph/file/0324b9d528d6b1393782f.jpg">
 </p>
-
-
-# ᴋᴜᴢᴜᴋɪ
 
 ## ʜᴏᴡ ᴛᴏ ʜᴏꜱᴛ ᴋᴜᴢᴜᴋɪ ?
 
