@@ -26,17 +26,17 @@ from telegram import ParseMode, ReplyKeyboardRemove, ReplyKeyboardMarkup, Inline
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from AnieRobot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
-from AnieRobot.__main__ import STATS, USER_INFO
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.extraction import extract_user
-from AnieRobot.modules.helper_funcs.filters import CustomFilters
-from AnieRobot.modules.rextester.api import Rextester, CompilerError
-from AnieRobot.modules.rextester.langs import languages
+from Kuzuki import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, BAN_STICKER
+from Kuzuki.__main__ import STATS, USER_INFO
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.extraction import extract_user
+from Kuzuki.modules.helper_funcs.filters import CustomFilters
+from Kuzuki.modules.rextester.api import Rextester, CompilerError
+from Kuzuki.modules.rextester.langs import languages
 
-from AnieRobot.modules.sql.translation import prev_locale
+from Kuzuki.modules.sql.translation import prev_locale
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
 from requests import get
 
