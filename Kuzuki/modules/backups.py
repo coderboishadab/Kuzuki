@@ -15,21 +15,21 @@ from telegram import Message, Chat, Update, Bot
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 
-import AnieRobot.modules.sql.notes_sql as sql
-from AnieRobot import dispatcher, LOGGER, OWNER_ID, SUDO_USERS, MESSAGE_DUMP
-from AnieRobot.__main__ import DATA_IMPORT
-from AnieRobot.modules.helper_funcs.chat_status import user_admin
-from AnieRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from AnieRobot.modules.helper_funcs.msg_types import get_note_type
-from AnieRobot.modules.rules import get_rules
-import AnieRobot.modules.sql.rules_sql as rulessql
-from AnieRobot.modules.sql import warns_sql as warnssql
-import AnieRobot.modules.sql.blacklist_sql as blacklistsql
-from AnieRobot.modules.sql import disable_sql as disabledsql
-from AnieRobot.modules.sql import cust_filters_sql as filtersql
-import AnieRobot.modules.sql.welcome_sql as welcsql
-import AnieRobot.modules.sql.locks_sql as locksql
-from AnieRobot.modules.connection import connected
+import Kuzuki.modules.sql.notes_sql as sql
+from Kuzuki import dispatcher, LOGGER, OWNER_ID, SUDO_USERS, MESSAGE_DUMP
+from Kuzuki.__main__ import DATA_IMPORT
+from Kuzuki.modules.helper_funcs.chat_status import user_admin
+from Kuzuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Kuzuki.modules.helper_funcs.msg_types import get_note_type
+from Kuzuki.modules.rules import get_rules
+import Kuzuki.modules.sql.rules_sql as rulessql
+from Kuzuki.modules.sql import warns_sql as warnssql
+import Kuzuki.modules.sql.blacklist_sql as blacklistsql
+from Kuzuki.modules.sql import disable_sql as disabledsql
+from Kuzuki.modules.sql import cust_filters_sql as filtersql
+import Kuzuki.modules.sql.welcome_sql as welcsql
+import Kuzuki.modules.sql.locks_sql as locksql
+from Kuzuki.modules.connection import connected
 
 
 @user_admin
