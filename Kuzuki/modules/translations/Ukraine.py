@@ -1,4 +1,4 @@
-﻿from AnieRobot import dispatcher
+﻿from Kuzuki import dispatcher
 
 RUN_STRINGS = (
     "Куди ти зібрався?",
