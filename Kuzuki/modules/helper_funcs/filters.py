@@ -8,7 +8,7 @@
 from telegram import Message
 from telegram.ext import MessageFilter
 
-from AnieRobot import SUPPORT_USERS, SUDO_USERS
+from Kuzuki import SUPPORT_USERS, SUDO_USERS
 
 
 class CustomFilters(object):
