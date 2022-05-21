@@ -10,8 +10,8 @@ from typing import List, Optional
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
-from AnieRobot import LOGGER
-from AnieRobot.modules.users import get_user_id
+from Kuzuki import LOGGER
+from Kuzuki.modules.users import get_user_id
 
 
 def id_from_reply(message):
