@@ -4,6 +4,8 @@
 #The GNGeneral Public License is a free, copyleft license for
 #software and other kinds of works.
 #PTB13 Updated by @noobanon
+#recoded by @AKH1LS for Kuzuki Project.
+#Ported by @Magnesium_XD.
 
 import re
 from typing import Optional
@@ -15,20 +17,20 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, DispatcherHandlerStop, run_async, CallbackQueryHandler, Filters
 from telegram.utils.helpers import escape_markdown, mention_markdown
 
-from AnieRobot import dispatcher, LOGGER, OWNER_ID, SUDO_USERS
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.chat_status import user_admin
-from AnieRobot.modules.helper_funcs.extraction import extract_text
-from AnieRobot.modules.helper_funcs.filters import CustomFilters
-from AnieRobot.modules.helper_funcs.misc import build_keyboard_parser
-from AnieRobot.modules.helper_funcs.msg_types import get_filter_type
-from AnieRobot.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser, escape_invalid_curly_brackets
-from AnieRobot.modules.sql import cust_filters_sql as sql
+from Kuzuki import dispatcher, LOGGER, OWNER_ID, SUDO_USERS
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.chat_status import user_admin
+from Kuzuki.modules.helper_funcs.extraction import extract_text
+from Kuzuki.modules.helper_funcs.filters import CustomFilters
+from Kuzuki.modules.helper_funcs.misc import build_keyboard_parser
+from Kuzuki.modules.helper_funcs.msg_types import get_filter_type
+from Kuzuki.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser, escape_invalid_curly_brackets
+from Kuzuki.modules.sql import cust_filters_sql as sql
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
-from AnieRobot.modules.translations.strings import tld
-from AnieRobot.modules.helper_funcs.alternate import send_message
+from Kuzuki.modules.translations.strings import tld
+from Kuzuki.modules.helper_funcs.alternate import send_message
 
 HANDLER_GROUP = 10
 
