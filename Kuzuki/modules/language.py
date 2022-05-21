@@ -6,17 +6,17 @@
 #PTB13 Updated by @noobanon
 
 
-from AnieRobot.modules.sql.translation import switch_to_locale, prev_locale
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.sql.translation import switch_to_locale, prev_locale
+from Kuzuki.modules.translations.strings import tld
 from telegram.ext import CommandHandler
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
-from AnieRobot import dispatcher
-from AnieRobot.modules.translations.list_locale import list_locales
-from AnieRobot.modules.helper_funcs.chat_status import user_admin
+from Kuzuki import dispatcher
+from Kuzuki.modules.translations.list_locale import list_locales
+from Kuzuki.modules.helper_funcs.chat_status import user_admin
 from telegram.ext import CallbackQueryHandler
 import re
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
 
 @user_admin
