@@ -4,6 +4,8 @@
 #The GNGeneral Public License is a free, copyleft license for
 #software and other kinds of works.
 #PTB13 Updated by @noobanon
+#recoded by @AKH1LS for Kuzuki Project.
+
 
 import html
 from io import BytesIO
@@ -18,19 +20,19 @@ from telegram import ParseMode, Update, Bot, Chat, User, MessageEntity
 from telegram.ext import run_async, CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from AnieRobot import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, MESSAGE_DUMP, LOGGER
-from AnieRobot.modules.helper_funcs.handlers import CMD_STARTERS
-from AnieRobot.modules.helper_funcs.misc import is_module_loaded, send_to_list
-from AnieRobot.modules.helper_funcs.chat_status import is_user_admin
-from AnieRobot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from AnieRobot.modules.helper_funcs.string_handling import markdown_parser
-from AnieRobot.modules.disable import DisableAbleCommandHandler
+from Kuzuki import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, MESSAGE_DUMP, LOGGER
+from Kuzuki.modules.helper_funcs.handlers import CMD_STARTERS
+from Kuzuki.modules.helper_funcs.misc import is_module_loaded, send_to_list
+from Kuzuki.modules.helper_funcs.chat_status import is_user_admin
+from Kuzuki.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Kuzuki.modules.helper_funcs.string_handling import markdown_parser
+from Kuzuki.modules.disable import DisableAbleCommandHandler
 
-import AnieRobot.modules.sql.feds_sql as sql
+import Kuzuki.modules.sql.feds_sql as sql
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo
 # Federation by MrYacha 2018-2019
