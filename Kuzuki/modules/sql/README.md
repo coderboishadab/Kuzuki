@@ -1,1 +1,3 @@
-## SQL helpers 👀 recoded by [Akhil](https://github.com/AKH1LS) and ported by [Zeus](https://github.com/zeusop5).
+## These are SQL helpers files
+ - Recoded by [Akhil](https://github.com/AKH1LS).
+ - Ported by [Zeus](https://github.com/zeusop5).
