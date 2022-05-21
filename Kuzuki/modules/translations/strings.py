@@ -1,11 +1,11 @@
-from AnieRobot.modules.sql.translation import prev_locale
-from AnieRobot.modules.translations.English import EnglishStrings
-from AnieRobot.modules.translations.Russian import RussianStrings
-from AnieRobot.modules.translations.Ukraine import UkrainianStrings
-from AnieRobot.modules.translations.Spanish import SpanishStrings
-from AnieRobot.modules.translations.Turkish import TurkishStrings
-from AnieRobot.modules.translations.Indonesian import IndonesianStrings
-from AnieRobot.modules.translations.Italian import ItalianStrings
+from Kuzuki.modules.sql.translation import prev_locale
+from Kuzuki.modules.translations.English import EnglishStrings
+from Kuzuki.modules.translations.Russian import RussianStrings
+from Kuzuki.modules.translations.Ukraine import UkrainianStrings
+from Kuzuki.modules.translations.Spanish import SpanishStrings
+from Kuzuki.modules.translations.Turkish import TurkishStrings
+from Kuzuki.modules.translations.Indonesian import IndonesianStrings
+from Kuzuki.modules.translations.Italian import ItalianStrings
 
 def tld(chat_id, t, show_none=True):
     LANGUAGE = prev_locale(chat_id)
