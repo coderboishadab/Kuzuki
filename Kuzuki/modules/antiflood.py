@@ -1,9 +1,4 @@
-#Copyright (C) 2021 Free Software @noobanon @FakeMasked , Inc.[ https://t.me/noobanon https://t.me/FakeMasked ]
-#Everyone is permitted to copy and distribute verbatim copies
-#of this license document, but changing it is not allowed.
-#The GNGeneral Public License is a free, copyleft license for
-#software and other kinds of works.
-#PTB13 Updated by @noobanon﻿
+# Copyright by @AKH1LS.
 
 import html
 from typing import Optional, List
@@ -263,4 +258,3 @@ dispatcher.add_handler(SET_FLOOD_HANDLER)
 dispatcher.add_handler(FLOOD_HANDLER)
 dispatcher.add_handler(SET_FLOOD_MODE_HANDLER)
 
-# Copyright by @AKH1LS.
