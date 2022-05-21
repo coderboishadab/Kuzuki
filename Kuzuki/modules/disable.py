@@ -12,22 +12,22 @@ from telegram import ParseMode, Update, Bot, Chat, User, MessageEntity
 from telegram.ext import CommandHandler, Filters, MessageHandler, Filters
 from telegram.utils.helpers import escape_markdown
 
-from AnieRobot import dispatcher
-from AnieRobot.modules.helper_funcs.handlers import CMD_STARTERS
-from AnieRobot.modules.helper_funcs.misc import is_module_loaded
+from Kuzuki import dispatcher
+from Kuzuki.modules.helper_funcs.handlers import CMD_STARTERS
+from Kuzuki.modules.helper_funcs.misc import is_module_loaded
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
-    from AnieRobot.modules.helper_funcs.chat_status import user_admin, is_user_admin
+    from Kuzuki.modules.helper_funcs.chat_status import user_admin, is_user_admin
     from telegram.ext.dispatcher import run_async
 
-    from AnieRobot.modules.sql import disable_sql as sql
+    from Kuzuki.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
