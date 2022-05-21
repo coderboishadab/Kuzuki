@@ -3,8 +3,8 @@ from typing import Union
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from AnieRobot.modules.helper_funcs.msg_types import Types
-from AnieRobot.modules.sql import SESSION, BASE
+from Kuzuki.modules.helper_funcs.msg_types import Types
+from Kuzuki.modules.sql import SESSION, BASE
 
 
 class ChatAccessConnectionSettings(BASE):
