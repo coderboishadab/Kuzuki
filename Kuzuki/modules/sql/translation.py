@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String, UnicodeText
-from AnieRobot.modules.sql import SESSION, BASE
+from Kuzuki.modules.sql import SESSION, BASE
 
 class Locales(BASE):
     __tablename__ = "Locales"
