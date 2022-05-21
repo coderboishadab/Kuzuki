@@ -15,15 +15,15 @@ from telegram.error import BadRequest, TelegramError
 from telegram.ext import run_async, CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_html
 
-import AnieRobot.modules.sql.antispam_sql as sql
-from AnieRobot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, STRICT_ANTISPAM
-from AnieRobot.modules.helper_funcs.chat_status import user_admin, is_user_admin
-from AnieRobot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from AnieRobot.modules.helper_funcs.filters import CustomFilters
-from AnieRobot.modules.helper_funcs.misc import send_to_list
-from AnieRobot.modules.sql.users_sql import get_all_chats
+import Kuzuki.modules.sql.antispam_sql as sql
+from Kuzuki import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, STRICT_ANTISPAM
+from Kuzuki.modules.helper_funcs.chat_status import user_admin, is_user_admin
+from Kuzuki.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Kuzuki.modules.helper_funcs.filters import CustomFilters
+from Kuzuki.modules.helper_funcs.misc import send_to_list
+from Kuzuki.modules.sql.users_sql import get_all_chats
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
 GBAN_ENFORCE_GROUP = 6
 
