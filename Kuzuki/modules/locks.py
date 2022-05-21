@@ -16,16 +16,16 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import AnieRobot.modules.sql.locks_sql as sql
-from AnieRobot import dispatcher, SUDO_USERS, LOGGER
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
+import Kuzuki.modules.sql.locks_sql as sql
+from Kuzuki import dispatcher, SUDO_USERS, LOGGER
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
     bot_can_delete, is_bot_admin, user_can_change
-from AnieRobot.modules.log_channel import loggable
-from AnieRobot.modules.sql import users_sql
-from AnieRobot.modules.sql.approve_sql import is_approved
+from Kuzuki.modules.log_channel import loggable
+from Kuzuki.modules.sql import users_sql
+from Kuzuki.modules.sql.approve_sql import is_approved
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
 LOCK_TYPES = {'sticker': Filters.sticker,
               'audio': Filters.audio,
