@@ -4,6 +4,9 @@
 #The GNGeneral Public License is a free, copyleft license for
 #software and other kinds of works.
 #PTB13 Updated by @noobanon
+#tried some userbot plugin 🥲.
+#recoded by @AKH1LS for Kuzuki Project.
+
 
 import random, re
 from random import randint
@@ -11,8 +14,8 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity
 from telegram.ext import Filters, MessageHandler, run_async
 
-from AnieRobot import dispatcher
-from AnieRobot.modules.disable import DisableAbleCommandHandler
+from Kuzuki import dispatcher
+from Kuzuki.modules.disable import DisableAbleCommandHandler
 
 ABUSE_STRINGS = (
     "Fuck off",
