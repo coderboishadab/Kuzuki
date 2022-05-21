@@ -10,12 +10,12 @@ from telegram import Message, Update, Bot, User
 from telegram import MessageEntity, ParseMode
 from telegram.ext import Filters, MessageHandler, run_async
 
-from AnieRobot import dispatcher
-from AnieRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from AnieRobot.modules.sql import afk_sql as sql
-from AnieRobot.modules.users import get_user_id
+from Kuzuki import dispatcher
+from Kuzuki.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from Kuzuki.modules.sql import afk_sql as sql
+from Kuzuki.modules.users import get_user_id
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
