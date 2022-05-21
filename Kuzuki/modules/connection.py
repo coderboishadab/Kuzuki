@@ -4,6 +4,8 @@
 #The GNGeneral Public License is a free, copyleft license for
 #software and other kinds of works.
 #PTB13 Updated by @noobanon
+#recoded by @AKH1LS for Kuzuki Project.
+#Ported by @Magnesium_XD.
 
 from typing import Optional, List
 from telegram import ParseMode
@@ -13,15 +15,15 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import AnieRobot.modules.sql.connection_sql as sql
-from AnieRobot import dispatcher, LOGGER, SUDO_USERS
-from AnieRobot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
-from AnieRobot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from AnieRobot.modules.helper_funcs.string_handling import extract_time
+import Kuzuki.modules.sql.connection_sql as sql
+from Kuzuki import dispatcher, LOGGER, SUDO_USERS
+from Kuzuki.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
+from Kuzuki.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Kuzuki.modules.helper_funcs.string_handling import extract_time
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
-from AnieRobot.modules.keyboard import keyboard
+from Kuzuki.modules.keyboard import keyboard
 
 @user_admin
 def allow_connections(update, context) -> str:
