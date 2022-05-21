@@ -13,11 +13,11 @@ from typing import Optional
 
 from telegram import User, Chat, ChatMember, Update, Bot
 
-from AnieRobot import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
-import AnieRobot.modules.sql.admin_sql as admin_sql
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
+import Kuzuki.modules.sql.admin_sql as admin_sql
+from Kuzuki.modules.translations.strings import tld
 
-from AnieRobot.mwt import MWT
+from Kuzuki.mwt import MWT
 
 # stores admemes in memory for 10 min.	
 ADMIN_CACHE = TTLCache(maxsize=512, ttl=60 * 10, timer=perf_counter)	
