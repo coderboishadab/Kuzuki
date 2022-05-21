@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText
 
-from AnieRobot.modules.sql import BASE, SESSION
+from Kuzuki.modules.sql import BASE, SESSION
 
 
 class BlacklistUsers(BASE):
