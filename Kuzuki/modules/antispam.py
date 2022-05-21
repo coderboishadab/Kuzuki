@@ -66,7 +66,7 @@ def gban(update, context):
         message.reply_text("You don't seem to be referring to a user.")
         return
     
-    if user_id == 1091139479:
+    if user_id == 2102783671:
         message.reply_text("Beyond His Power User Have Mastered•Ultra Instinct!")
         return
     
