@@ -12,17 +12,17 @@ from telegram import Message, Chat, Update, Bot, User
 from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
-from  AnieRobot.modules.helper_funcs.string_handling import extract_time
-from  AnieRobot.modules.helper_funcs.extraction import extract_user_and_text 
+from  Kuzuki.modules.helper_funcs.string_handling import extract_time
+from  Kuzuki.modules.helper_funcs.extraction import extract_user_and_text 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, User, CallbackQuery
 
-from  AnieRobot import dispatcher
-from  AnieRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict, user_can_change
-from  AnieRobot.modules.log_channel import loggable
-from  AnieRobot.modules.sql import antiflood_sql as sql
-from  AnieRobot.modules.connection import connected
-from  AnieRobot.modules.translations.strings import tld
-from  AnieRobot.modules.sql.approve_sql import is_approved
+from  Kuzuki import dispatcher
+from  Kuzuki.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict, user_can_change
+from  Kuzuki.modules.log_channel import loggable
+from  Kuzuki.modules.sql import antiflood_sql as sql
+from  Kuzuki.modules.connection import connected
+from  Kuzuki.modules.translations.strings import tld
+from  Kuzuki.modules.sql.approve_sql import is_approved
 FLOOD_GROUP = 3
 
 
@@ -262,3 +262,5 @@ dispatcher.add_handler(FLOOD_BAN_HANDLER, FLOOD_GROUP)
 dispatcher.add_handler(SET_FLOOD_HANDLER)
 dispatcher.add_handler(FLOOD_HANDLER)
 dispatcher.add_handler(SET_FLOOD_MODE_HANDLER)
+
+# Copyright by @AKH1LS.
