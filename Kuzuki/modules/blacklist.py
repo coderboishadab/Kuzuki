@@ -13,16 +13,16 @@ from telegram import Message, Chat, Update, Bot, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 
-import AnieRobot.modules.sql.blacklist_sql as sql
-from AnieRobot import dispatcher, LOGGER
-from AnieRobot.modules.disable import DisableAbleCommandHandler
-from AnieRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin, user_can_change
-from AnieRobot.modules.helper_funcs.extraction import extract_text
-from AnieRobot.modules.helper_funcs.misc import split_message
+import Kuzuki.modules.sql.blacklist_sql as sql
+from Kuzuki import dispatcher, LOGGER
+from Kuzuki.modules.disable import DisableAbleCommandHandler
+from Kuzuki.modules.helper_funcs.chat_status import user_admin, user_not_admin, user_can_change
+from Kuzuki.modules.helper_funcs.extraction import extract_text
+from Kuzuki.modules.helper_funcs.misc import split_message
 
-from AnieRobot.modules.connection import connected
+from Kuzuki.modules.connection import connected
 
-from AnieRobot.modules.translations.strings import tld
+from Kuzuki.modules.translations.strings import tld
 
 BLACKLIST_GROUP = 11
 
