@@ -10,10 +10,10 @@
 import telegram.ext as tg
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, Filters
-from AnieRobot.modules.sql.antispam_sql import is_user_gbanned
-import AnieRobot.modules.sql.blacklistusers_sql as sql
+from Kuzuki.modules.sql.antispam_sql import is_user_gbanned
+import Kuzuki.modules.sql.blacklistusers_sql as sql
 try:
-    from AnieRobot import CUSTOM_CMD
+    from Kuzuki import CUSTOM_CMD
 except:
     CUSTOM_CMD = False
 
