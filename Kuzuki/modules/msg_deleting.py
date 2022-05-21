@@ -5,7 +5,7 @@
 #software and other kinds of works.
 #PTB13 Updated by @noobanon // @FakeMasked
 
-from AnieRobot import telethn, SUDO_USERS
+from Kuzuki import telethn, SUDO_USERS
 
 import asyncio
 from telethon import events
