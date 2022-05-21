@@ -8,9 +8,9 @@
 from telegram import Message, User, Bot, Update, ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 
-from AnieRobot import dispatcher, OWNER_ID
+from Kuzuki import dispatcher, OWNER_ID
 
-import AnieRobot.modules.sql.blacklistusers_sql as sql
+import Kuzuki.modules.sql.blacklistusers_sql as sql
 
 
 def bl_user(update, context):
