@@ -66,7 +66,7 @@ RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/marvel
 RUN git clone https://github.com/kuzukibots/kuzuki/root/kuzuki 
-WORKDIR /root/kuzuki
+WORKDIR /root/Kuzuki
 
 #Copy config file to /root/Kuzukibots//Kuzuki 
 COPY ./Kuzuki/sample_config.py ./Kuzuki/config.py* /root/Kuzuki/Kuzuki/
